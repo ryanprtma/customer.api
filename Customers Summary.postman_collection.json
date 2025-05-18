@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "a4b0220f-35d6-41c2-b743-dd9971679c73",
+		"name": "Customers Summary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30548586"
+	},
+	"item": [
+		{
+			"name": "Get Summary Gender",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://customerapi-production-62ad.up.railway.app/api/customers/summary/gender",
+					"protocol": "https",
+					"host": [
+						"customerapi-production-62ad",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"customers",
+						"summary",
+						"gender"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Summary Age",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://customerapi-production-62ad.up.railway.app/api/customers/summary/age",
+					"protocol": "https",
+					"host": [
+						"customerapi-production-62ad",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"customers",
+						"summary",
+						"age"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Summary Digital Interest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://customerapi-production-62ad.up.railway.app/api/customers/summary/digital-interest",
+					"protocol": "https",
+					"host": [
+						"customerapi-production-62ad",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"customers",
+						"summary",
+						"digital-interest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Summary Brand Device",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://customerapi-production-62ad.up.railway.app/api/customers/summary/brand-device",
+					"protocol": "https",
+					"host": [
+						"customerapi-production-62ad",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"customers",
+						"summary",
+						"brand-device"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
