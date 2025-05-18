@@ -1,7 +1,10 @@
 # 🧱 Customer API - Clean Architecture with Express & MongoDB
 
 API ini dibangun menggunakan arsitektur **Clean Architecture**, berbasis **Express.js** dan **MongoDB (via Mongoose)**. Tujuannya adalah memisahkan tanggung jawab antar lapisan: controller, use case, repository, dan infrastructure.
+---
 
+- bisa diakses di : https://customerapi-production-62ad.up.railway.app/api/customers/summary/gender
+- ui : https://customerui-production.up.railway.app
 ---
 
 ## 📦 Fitur
