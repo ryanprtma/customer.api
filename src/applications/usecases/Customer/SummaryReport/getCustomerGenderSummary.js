@@ -7,7 +7,8 @@ class GetCustomerGenderSummary {
 
     async execute() {
         const summaries = [];
-        const results = await this.customerRepository.getGenderSummary()
+        const results = await this.customerRepository.getGenderSummary();
+        console.log(results)
         results.forEach((customer) => {
             const payload = {
                 key: 'gender',

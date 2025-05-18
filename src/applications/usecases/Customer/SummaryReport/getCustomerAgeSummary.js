@@ -7,7 +7,7 @@ class GetCustomerAgeSummary {
 
     async execute() {
         const summaries = [];
-        const results = await this.customerRepository.getAgeSummary()
+        const results = await this.customerRepository.getAgeSummary();
         results.forEach((customer) => {
             const payload = {
                 key: 'age',

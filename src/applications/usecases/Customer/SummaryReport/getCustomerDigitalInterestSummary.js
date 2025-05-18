@@ -7,7 +7,7 @@ class GetCustomerDigitalInterestSummary {
 
     async execute() {
         const summaries = [];
-        const results = await this.customerRepository.getDigitalInterestSummary()
+        const results = await this.customerRepository.getDigitalInterestSummary();
         results.forEach((customer) => {
             const payload = {
                 key: 'digital_interest',
